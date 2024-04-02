@@ -1,0 +1,24 @@
+{
+	"scripts": {
+		"dev": "parcel pages/*.html",
+		"build":"parcel build pages/*.html"
+	},
+	"dependencies": {
+		"bn.js": "^5.2.1",
+		"dotenv": "^16.4.5",
+		"parcel": "^2.12.0",
+		"uikit": "^3.19.2"
+	},
+	"devDependencies": {
+		"@parcel/transformer-coffeescript": "2.12.0",
+		"buffer": "^5.5.0||^6.0.0",
+		"crypto-browserify": "^3.12.0",
+		"events": "^3.1.0",
+		"os-browserify": "^0.3.0",
+		"path-browserify": "^1.0.0",
+		"process": "^0.11.10",
+		"stream-browserify": "^3.0.0",
+		"string_decoder": "^1.3.0",
+		"vm-browserify": "^1.1.2"
+	}
+}
