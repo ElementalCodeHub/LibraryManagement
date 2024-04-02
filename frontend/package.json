@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"install":"bun install"
 		"dev": "parcel pages/*.html",
 		"build":"parcel build pages/*.html"
 	},
